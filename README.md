@@ -7,6 +7,8 @@ Generative Adversarial Networks(GAN) represent a cutting-edge approach to genera
 * Matplotlib
 * tqdm
 
+**Device = CUDA** : Code utilize GPU for training
+
 Using TorchVision, upload **MNIST Dataset** which is used to provide hand-written digits.
 Total image present in the dataset = 60,000
 
@@ -20,3 +22,18 @@ Total image present in the dataset = 60,000
 Apply **Data Augmentation** pipeline to image:
 
 Data Augmentation (Crop, Rotate, Zoom, Stretch, RGB Channel)
+
+**Discriminator Network :**
+
+Libraries : nn (Neural Network) , Summary
+
+Discriminator uses Convolutional Neural Network (CNN) which include:
+
+* in_channel = number of input channel in image
+* out_channel = number of output channel produced by convolution
+* Kernel_size = Size of Filter
+* Stride = steps move across input image
+
+  **Generator Network :**
+  Random noise processed to generate fake images. Fake images must be similar to training dataset.
+
