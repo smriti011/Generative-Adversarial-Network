@@ -11,13 +11,11 @@ Using TorchVision, upload **MNIST Dataset** which is used to provide hand-writte
 Total image present in the dataset = 60,000
 
 **Pre-Processing:**
-Batch_Size = 128
 
-Noise_Dimension = 64
-
-Learning_Rate = 0.0002
-
-Epochs = 10
+* Batch_Size = 128
+* Noise_Dimension = 64
+* Learning_Rate = 0.0002
+* Epochs = 10
 
 Apply **Data Augmentation** pipeline to image:
 
